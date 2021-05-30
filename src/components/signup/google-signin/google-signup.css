@@ -1,0 +1,7 @@
+.google-signup-btn{
+    width: 100% !important;
+    border-radius: .21rem !important;
+    color: black !important;
+    display: flex !important;
+    justify-content: center;
+}

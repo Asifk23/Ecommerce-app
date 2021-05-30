@@ -1,0 +1,35 @@
+
+.form .textfield-col{
+    display: flex;
+    flex-direction: column;
+    padding: .7rem 0;
+}
+
+.form .textfield-col .input-box{
+    padding: .75rem;
+    outline: none;
+    border: 0;
+    background: #f3f3f3;
+    border-radius: .4rem;
+}
+.form .textfield-col .label{
+    text-transform: capitalize;
+    font-size: .75rem;
+    font-weight: 600;
+}
+.form .submit-btn{
+    outline: none;
+    border: none;
+    padding: .5rem 2rem;
+    border-radius: .4rem;
+    background: darkslategray;
+    color: white;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+.form .textfield-col .error-msg{
+    font-size: .65rem;
+    color: #ec0000;
+    font-weight: 300;
+    margin: .3rem;
+}
